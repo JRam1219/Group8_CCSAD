@@ -30,7 +30,7 @@ body {
 /* Logo and Text */
 
 .slider-container{
-    height: 90vh;
+    height: 70vh;
 }
 .slider-wrapper .slider-item::before {
     position: absolute;
