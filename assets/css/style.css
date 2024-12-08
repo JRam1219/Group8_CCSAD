@@ -214,14 +214,14 @@ body {
 }
 /* madrideo */
 
-/* Hero Section Adjustments */
-/* Full-Screen Header with Image Slideshow */
+/* Hero Section*/
 .hero {
     position: relative;
     height: 90vh; /* Full viewport height */
 }
 
 .hero img {
+    margin-top: 5%;
     width: 100%;
     height: 100%;
     object-fit: inherit;
