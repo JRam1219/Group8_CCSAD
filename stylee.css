@@ -61,27 +61,27 @@ body {
     position: relative;
 }
 .slider-wrapper .slider-item .slide-content > * {
-    max-width: 100%; /* Changed from 40% to be fully responsive */
+    max-width: 100%; 
 }
 .slider-item .slide-content .slide-subtitle {
-    font-size: clamp(1.2rem, 4vw, 2rem); /* Responsive font size */
+    font-size: clamp(1.2rem, 4vw, 2rem); 
     font-weight: normal;
 }
 .slider-item .slide-content .slide-title {
-    font-size: clamp(2rem, 8vw, 4rem); /* Responsive font size */
+    font-size: clamp(2rem, 8vw, 4rem); 
     font-weight: 600;
     margin-top: 5px;
     text-transform: uppercase;
 }
 .slider-item .slide-content .slide-description {
     margin-top: 25px;
-    line-height: 1.5; /* More flexible line height */
-    font-size: clamp(1rem, 3vw, 1.625rem); /* Responsive font size */
+    line-height: 1.5; 
+    font-size: clamp(1rem, 3vw, 1.625rem); 
 }
 .slider-item .slide-content .slide-button {
     color: #fff;
-    width: 100%; /* Responsive width */
-    max-width: 250px; /* Maximum width maintained */
+    width: 100%; 
+    max-width: 250px; 
     padding: 13px 0;
     display: block;
     margin-top: 45px;
@@ -101,8 +101,8 @@ body {
 .slider-navigation button {
     position: absolute;
     top: 50%;
-    height: 50px; /* Slightly smaller on smaller screens */
-    width: 50px; /* Slightly smaller on smaller screens */
+    height: 50px; 
+    width: 50px; 
     cursor: pointer;
     z-index: 20;
     color: black;
@@ -116,26 +116,24 @@ body {
     background: gray;
 }
 .slider-navigation button#slide-prev {
-    left: 10px; /* Reduced from 20px */
+    left: 10px; 
 }
 .slider-navigation button#slide-next {
-    right: 10px; /* Reduced from 20px */
+    right: 10px; 
 }
-
-/* Media Queries for Additional Responsiveness */
 @media screen and (max-width: 768px) {
     .slider-wrapper .slider-item .slide-content > * {
-        max-width: 100%; /* Full width on smaller screens */
+        max-width: 100%; 
     }
     
     .slider-item .slide-content .slide-subtitle,
     .slider-item .slide-content .slide-title,
     .slider-item .slide-content .slide-description {
-        text-align: center; /* Center align text on smaller screens */
+        text-align: center; 
     }
     
     .slider-item .slide-content .slide-button {
-        margin: 25px auto; /* Center the button */
+        margin: 25px auto; 
     }
     
     .slider-navigation button {
