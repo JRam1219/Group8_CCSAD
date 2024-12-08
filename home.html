@@ -7,6 +7,8 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 
@@ -21,22 +23,57 @@
         </button>
         <div class="navbar-nav collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li><a href="index.html" class="nav-link active">HOME</a></li>
-                <li><a href="catalog.html" class="nav-link">CATALOG</a></li>
-                <li><a href="services.html" class="nav-link">SERVICES</a></li>
-                <li><a href="about.html" class="nav-link">ABOUT US</a></li>
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="catalog.html" class="nav-link">Catalog</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
             </ul>
         </div>
     </nav>
 
-    <header id="home" class="hero text-white text-center position-relative">
-        <!-- Black Overlay -->
-        <div class="overlay"></div>
-        <img src="images/featured.png" alt="Library Background" class="hero-image">
-        <div class="hero-content">
-        </div>
-    </header>
+    <!--this is the header Section -->
     
+    <div class="slider-container">
+        <div class="slider-wrapper swiper-wrapper">
+        <div class="slider-item swiper-slide">
+        <div class="slide-content">
+        <h3 class="slide-subtitle">Featured</h3>
+        <h2 class="slide-title">Reading Club 2000</h2>
+        <p class="slide-description">This section contains the overview of the website</p>
+        <a href="home.html" class="slide-button"><span>Learn More</span></a>
+        </div>    
+        </div>   
+        <div class="slider-item swiper-slide">
+        <div class="slide-content">
+        <h3 class="slide-subtitle">Catalog</h3>
+        <h2 class="slide-title">Reading Club 2000</h2>
+        <p class="slide-description">This section contains the books offered</p>
+        <a href="catalog.html" class="slide-button"><span>Learn More</span></a>
+        </div>
+        </div>
+        <div class="slider-item swiper-slide">
+        <div class="slide-content">
+        <h3 class="slide-subtitle">Services</h3>
+        <h2 class="slide-title">Reading Club 2000</h2>
+        <p class="slide-description">This section contains the services of the company</p>
+        <a href="services.html" class="slide-button"><span>Learn More</span></a>        
+        </div>
+        </div>
+        <div class="slider-item swiper-slide">
+        <div class="slide-content">
+        <h3 class="slide-subtitle">About</h3>
+        <h2 class="slide-title">Reading Club 2000</h2>
+        <p class="slide-description">This section contains mission, vision, history of the company; also, the owner.</p>
+        <a href="about.html" class="slide-button"><span>Learn More</span></a> 
+        </div>
+        </div>
+        </div>
+        <div class="slider-navigation">
+        <button id="slide-prev" class="material-symbols-outlined">arrow_left_alt</span>
+        <button id="slide-next"class="material-symbols-outlined">arrow_right_alt</span>
+        </div>
+        </div>
+        </div>
 
     <!--this is the Latest News Section -->
     <section id="news" class="container">
@@ -109,6 +146,8 @@
     </footer>    
     
         <!-- Bootstrap JS and dependencies -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
