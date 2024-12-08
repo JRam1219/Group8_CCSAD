@@ -1,4 +1,3 @@
-JAVASCRIPT NAMAN TO
 
 const swiper = new Swiper (".slider-container" , {
     effect: "slide",
