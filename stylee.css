@@ -34,11 +34,6 @@ body {
     box-shadow: 0 5px 10px rgba(245, 245, 245, 0.315);
 }
 /* Logo and Text */
-.slider-wrapper {
-    width: 100%;
-    overflow: hidden;
-}
-
 .slider-wrapper .slider-item::before {
     position: absolute;
     content: "";
