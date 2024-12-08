@@ -28,7 +28,6 @@ body {
 }
 
 /* Logo and Text */
-}
 .slider-wrapper .slider-item::before {
     position: absolute;
     content: "";
