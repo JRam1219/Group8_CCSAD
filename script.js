@@ -7,7 +7,6 @@ const swiper = new Swiper(".slider-container", {
         nextEl: "#slide-next"
     }
 });
-
 document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.querySelector('.navbar');
 
