@@ -8,14 +8,16 @@ const swiper = new Swiper(".slider-container", {
     }
 });
 
-const navbar = document.querySelector('.navbar');
+document.addEventListener('DOMContentLoaded', function() {
+    const navbar = document.querySelector('.navbar');
 
-if (navbar) {
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 50) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
-        }
-    });
-}
+    if (navbar) {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    }
+});
