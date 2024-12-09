@@ -1,10 +1,14 @@
-const swiper = new Swiper(".slider-container", {
-    effect: "slide",
-    speed: 1300,
-    navigation: {
-        prevEl: "#slide-prev",
-        nextEl: "#slide-next"
-    }
+document.addEventListener('DOMContentLoaded', function() {
+    const swiper = new Swiper(".slider-container", {
+        effect: "slide",
+        speed: 1300,
+        // Optional autoplay
+        // autoplay: {delay: 4000},
+        navigation: {
+            prevEl: "#slide-prev",
+            nextEl: "#slide-next"
+        }
+    });
 });
 document.addEventListener('DOMContentLoaded', () => {
     const navbar = document.querySelector('.navbar.navbar-expand-lg.fixed-top');
