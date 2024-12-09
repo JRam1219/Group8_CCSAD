@@ -6,10 +6,11 @@ const swiper = new Swiper(".slider-container", {
         prevEl: "#slide-prev",
         nextEl: "#slide-next"
     }
-});
 document.addEventListener('DOMContentLoaded', () => {
-    const navbar = document.querySelector('.navbar.navbar-expand-lg');
-    window.addEventListener('scroll', () => {
-        navbar.classList.toggle('scrolled', window.scrollY > 50);
-    });
+    const navbar = document.querySelector('.navbar.navbar-expand-lg.fixed-top');
+    if (navbar) {
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    }
 });
