@@ -1,11 +1,13 @@
-const swiper = new Swiper(".slider-container", {
-    effect: "slide",
-    speed: 1300,
-    //autoplay: {delay: 4000},
+const swiper = new Swiper('.swiper-container', {
+    loop: true,
     navigation: {
-        prevEl: "#slide-prev",
-        nextEl: "#slide-next"
-    }
+        nextEl: '#slide-next',
+        prevEl: '#slide-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
 });
 
 window.addEventListener('scroll', function() {
