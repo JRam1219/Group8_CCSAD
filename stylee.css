@@ -14,41 +14,41 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: transparent; /* Make the navbar transparent */
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
-    padding: 15px 20px; /* Adjust padding as needed */
+    background-color: transparent; 
+    transition: background-color 0.3s ease; 
+    padding: 15px 20px; 
 }
 
-/* Change the background color when scrolled */
+
 .scrolled {
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+    background-color: rgba(255, 255, 255, 0.9); 
 }
 
-/* Style for the logo text */
+
 .logotext {
     display: flex;
     align-items: center;
 }
 
 .logo {
-    height: 50px; /* Adjust logo size */
-    margin-right: 10px; /* Space between logo and text */
+    height: 50px; 
+    margin-right: 10px; 
 }
 
 /* Navbar links */
 .nav-link {
-    color: #fff; /* White text color */
-    margin: 0 15px; /* Space between links */
-    transition: color 0.3s ease; /* Smooth transition for link color */
+    color: #fff; 
+    margin: 0 15px; 
+    transition: color 0.3s ease; 
 }
 
 .nav-link:hover {
-    color: #f0f0f0; /* Change color on hover */
+    color: #f0f0f0; 
 }
 
-/* Adjust the active link color */
+
 .nav-link.active {
-    font-weight: bold; /* Make active link bold */
+    font-weight: bold; 
 }
 
 /* Logo and Text */
