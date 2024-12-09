@@ -8,8 +8,7 @@ const swiper = new Swiper(".slider-container", {
     }
 });
 document.addEventListener('DOMContentLoaded', function() {
-    const navbar = document.querySelector('.navbar');
-
+    const navbar = document.querySelector('.navbar.navbar-expand-lg');
     if (navbar) {
         window.addEventListener('scroll', function() {
             if (window.scrollY > 50) {
