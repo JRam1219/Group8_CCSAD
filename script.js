@@ -18,17 +18,17 @@ window.addEventListener('scroll', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const navbar = document.querySelector('.navbar');
+    const navbar = document.querySelector('.navbar.fixed-top');
     
-    // Function to handle scroll event
-    function handleScroll() {
-        if (window.scrollY > 50) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
-        }
+    if (navbar) {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                navbar.style.backgroundColor = 'rgba(35, 36, 35, 0.8)';
+                navbar.style.boxShadow = '0 5px 10px rgba(245, 245, 245, 0.315)';
+            } else {
+                navbar.style.backgroundColor = 'transparent';
+                navbar.style.boxShadow = 'none';
+            }
+        });
     }
-
-    // Add scroll event listener
-    window.addEventListener('scroll', handleScroll);
 });
