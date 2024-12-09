@@ -222,6 +222,9 @@ body {
 .navbar-nav button:hover {
     background-color: #2980b9;
 }
+.navbar-toggler{
+    margin-right: 5%;
+}
 
 .slider-container {
     position: relative;
