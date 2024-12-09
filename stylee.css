@@ -16,7 +16,7 @@ body {
 
 .navbar.navbar-expand-lg {
     background-color: transparent !important;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease !important;
     position: fixed;
     top: 0;
     width: 100%;
