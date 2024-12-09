@@ -20,7 +20,7 @@ body {
     height: 80px;
     width: 100%;
     padding: 0 20px;
-    background-color: lightcyan;
+    background-color: black;
     box-shadow: 0 5px 10px rgba(245, 245, 245, 0.315);
     position: fixed;
     top: 0;
