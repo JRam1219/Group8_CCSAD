@@ -13,7 +13,6 @@ body {
 }
 
 /* Navbar */
-
 .navbar.navbar-expand-lg {
     background-color: transparent !important;
     transition: all 0.3s ease !important;
@@ -27,6 +26,8 @@ body {
     background-color: rgba(35, 36, 35, 0.8) !important;
     box-shadow: 0 5px 10px rgba(245, 245, 245, 0.315);
 }
+
+
 /* Logo and Text */
 .slider-wrapper .slider-item::before {
     position: absolute;
