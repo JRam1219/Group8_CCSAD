@@ -31,6 +31,20 @@ body {
     background-color: rgba(35, 36, 35, 0.8);
     box-shadow: 0 5px 10px rgba(245, 245, 245, 0.315);
 }
+
+.navbar.navbar-expand-lg {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar.navbar-expand-lg.scrolled {
+    background-color: rgba(35, 36, 35, 0.8) !important;
+    box-shadow: 0 5px 10px rgba(245, 245, 245, 0.315);
+}
 /* Logo and Text */
 .slider-wrapper .slider-item::before {
     position: absolute;
