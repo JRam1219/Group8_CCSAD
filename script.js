@@ -1,17 +1,18 @@
-const swiper = new Swiper (".slider-container" , {
+const swiper = new Swiper(".slider-container", {
     effect: "slide",
     speed: 1300,
-    //autoplay: {delay: 4000}
+    //autoplay: {delay: 4000},
     navigation: {
-        prevEl: "#slide-prev" ,
+        prevEl: "#slide-prev",
         nextEl: "#slide-next"
-    } ,
-    });
-document.addEventListener('DOMContentLoaded', () => {
-    const navbar = document.querySelector('.navbar.navbar-expand-lg.fixed-top');
-    if (navbar) {
-        window.addEventListener('scroll', () => {
-            navbar.classList.toggle('scrolled', window.scrollY > 50);
-        });
+    }
+});
+
+window.addEventListener('scroll', function() {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
     }
 });
