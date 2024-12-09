@@ -20,16 +20,11 @@ body {
     height: 80px;
     width: 100%;
     padding: 0 20px;
-    background-color: transparent;
-    box-shadow: none;
+    background-color: lightcyan;
+    box-shadow: 0 5px 10px rgba(245, 245, 245, 0.315);
     position: fixed;
     top: 0;
     z-index: 1000;
-    transition: background-color 0.3s ease;
-}
-.navbar.scrolled {
-    background-color: rgba(35, 36, 35, 0.8); 
-    box-shadow: 0 5px 10px rgba(245, 245, 245, 0.315);
 }
 
 /* Logo and Text */
