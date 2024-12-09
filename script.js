@@ -1,14 +1,15 @@
 const swiper = new Swiper('.swiper-container', {
-    loop: true,
-    navigation: {
-        nextEl: '#slide-next',
-        prevEl: '#slide-prev',
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-});
+        // Optional parameters
+        loop: true,
+        navigation: {
+            nextEl: '#slide-next',
+            prevEl: '#slide-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    })
 
 window.addEventListener('scroll', function() {
         const navbar = document.querySelector('.navbar');
