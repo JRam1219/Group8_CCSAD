@@ -14,41 +14,22 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: transparent; 
-    transition: background-color 0.3s ease; 
-    padding: 15px 20px; 
-}
-
-
-.scrolled {
-    background-color: rgba(255, 255, 255, 0.9); 
-}
-
-
-.logotext {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    height: 80px;
+    width: 100%;
+    padding: 0 20px;
+    background-color: transparent;
+    box-shadow: none;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
 }
-
-.logo {
-    height: 50px; 
-    margin-right: 10px; 
-}
-
-/* Navbar links */
-.nav-link {
-    color: #fff; 
-    margin: 0 15px; 
-    transition: color 0.3s ease; 
-}
-
-.nav-link:hover {
-    color: #f0f0f0; 
-}
-
-
-.nav-link.active {
-    font-weight: bold; 
+.navbar.scrolled {
+    background-color: rgba(35, 36, 35, 0.8); 
+    box-shadow: 0 5px 10px rgba(245, 245, 245, 0.315);
 }
 
 /* Logo and Text */
