@@ -14,22 +14,41 @@ body {
 
 /* Navbar */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    width: 100%;
-    padding: 0 20px;
-    background-color: transparent;
-    box-shadow: none;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    transition: background-color 0.3s ease;
+    background-color: transparent; /* Make the navbar transparent */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    padding: 15px 20px; /* Adjust padding as needed */
 }
-.navbar.scrolled {
-    background-color: rgba(35, 36, 35, 0.8); 
-    box-shadow: 0 5px 10px rgba(245, 245, 245, 0.315);
+
+/* Change the background color when scrolled */
+.scrolled {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+}
+
+/* Style for the logo text */
+.logotext {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px; /* Adjust logo size */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+/* Navbar links */
+.nav-link {
+    color: #fff; /* White text color */
+    margin: 0 15px; /* Space between links */
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.nav-link:hover {
+    color: #f0f0f0; /* Change color on hover */
+}
+
+/* Adjust the active link color */
+.nav-link.active {
+    font-weight: bold; /* Make active link bold */
 }
 
 /* Logo and Text */
