@@ -1,7 +1,7 @@
 const swiper = new Swiper (".slider-container" , {
     effect: "slide",
     speed: 1300,
-    autoplay: {delay: 1000}
+    autoplay: {delay: 2500}
 });
 
 window.addEventListener('scroll', function() {
